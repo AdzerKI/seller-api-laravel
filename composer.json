@@ -1,5 +1,5 @@
 {
-    "name": "opotopo/laravel-seller-api",
+    "name": "opotopo/seller-api-laravel",
     "description": "Синхронизация каталога, приём вебхуков покупок и выдача данных покупок сайта на Laravel через Seller API ОПОТОПО",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
         "marketplace"
     ],
     "support": {
-        "source": "https://github.com/AdzerKI/laravel-seller-api"
+        "source": "https://github.com/AdzerKI/seller-api-laravel"
     },
     "require": {
         "php": "^8.2",
@@ -27,8 +27,7 @@
     },
     "require-dev": {
         "orchestra/testbench": "^10.0|^11.0",
-        "phpunit/phpunit": "^11.5|^12.0|^13.0",
-        "testcontainers/testcontainers": "^1.1, !=1.2.0"
+        "phpunit/phpunit": "^11.5|^12.0|^13.0"
     },
     "autoload": {
         "psr-4": {
